@@ -1,0 +1,86 @@
+body{
+    background-color: beige;
+    font-family: 'Book Antiqua';
+}
+
+.title{
+    position: relative;
+    text-align: center;
+}
+
+#title-img{
+    width: 100%;
+    height: 470px;
+}
+
+#title{
+    color: brown;
+    font-family: 'Book Antiqua';
+    font-style: italic;
+    position: absolute;
+    font-size: 130px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+#desc-block{
+    background-color: brown;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    border-style: ridge;
+    border-width: 10px;
+}
+
+.text{
+    color:beige;
+    text-align: center;
+}
+
+#desc-img{
+    width: 40%;
+    border-width: 6px;
+    margin-top: 15px;
+    border-style:outset;
+    border-color: beige;
+    margin-bottom: 20px;
+}
+
+#ing-block{
+    background-color: brown;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    border-style: ridge;
+    border-width: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#prep-block{
+    background-color: brown;
+    text-align: left;
+    width: 98.7%;
+    border-style: ridge;
+    border-width: 10px;
+}
+
+.list-prep{
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
